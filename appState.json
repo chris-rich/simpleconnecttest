@@ -1,0 +1,96 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3c1dfa3a-9850-403c-9707-e8883a3becec": {
+        "id": "3c1dfa3a-9850-403c-9707-e8883a3becec",
+        "parent": null,
+        "name": "simpleConnectTest.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "simpleConnectTest.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 35
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "simpleConnectTest"
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "3c1dfa3a-9850-403c-9707-e8883a3becec"
+    ],
+    "currentFileId": "3c1dfa3a-9850-403c-9707-e8883a3becec",
+    "resources": {
+      "ddbauthors": {
+        "name": "ddbauthors",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 0,
+          "table": {
+            "arn": "",
+            "name": "authors",
+            "partitionKey": "id",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 0
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "simpleConnectTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1589740624050
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "simpleconnecttest",
+      "url": "https://github.com/chris-rich/simpleconnecttest"
+    }
+  }
+}
