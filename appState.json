@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "simpleConnectTest.js",
         "cursor": {
-          "lineNumber": 4,
-          "column": 35
+          "lineNumber": 17,
+          "column": 7
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -84,7 +84,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1589740624050
+    "lastSave": 1589740701503
   },
   "VCS_STATE": {
     "provider": "GitHub",

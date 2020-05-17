@@ -1,7 +1,7 @@
 let AWS = require('aws-sdk');
 const ddb = new AWS.DynamoDB.DocumentClient();
 
-exports.handler = async (event) => {
+exports.handler = async (data) => {
 
     return { "message": "Successfully executed" };
     try {
